@@ -1,9 +1,41 @@
 body {
     text-align: center;
-    background-color: blue;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: bg 15s ease infinite;
 }
 
-h1 {
-    font-size: 10vw;
-    color: red;
+#topDiv {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(215, 217, 250);
+}
+
+#topDiv h1 {
+    font-size: 3em;
+    color: #2b78f5;
+}
+
+#topDiv h2 {
+    font-size: 1.65em;
+    color: rgb(32, 32, 38);
+}
+
+.mainLink {
+    font-size: 2.75em;
+    color: #2b78f5;
+}
+
+@keyframes bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
