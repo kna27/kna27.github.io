@@ -1,8 +1,9 @@
 body {
     text-align: center;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #1D2F6F, #8390fa, #fac748, #f9e9ec, #f88dad);
     background-size: 400% 400%;
     animation: bg 15s ease infinite;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #topDiv {
@@ -38,4 +39,12 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+#links {
+    overflow: hidden;
+    padding: 20px 10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
 }
