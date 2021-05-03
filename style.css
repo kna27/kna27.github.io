@@ -123,6 +123,10 @@ p {
         height: auto;
         background-color: azure;
     }
+    #mainDiv h1 {
+        font-size: 2.25em;
+        color: #2b78f5;
+    }
     #links a {
         font-size: 6vw;
     }
