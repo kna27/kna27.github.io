@@ -72,9 +72,14 @@ body {
     color: rgb(32, 32, 38);
 }
 
+#projectContent h3{
+    font-size: 1.35em;
+}
+
 #projectContent ul,
-ol {
-    font-size: 1.5em;
+ol,
+p {
+    font-size: 1.25em;
 }
 
 .mainLink {
