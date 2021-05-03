@@ -1,12 +1,22 @@
 body {
     text-align: center;
     background: linear-gradient(-45deg, #1D2F6F, #8390fa, #fac748, #f9e9ec, #f88dad);
-    background-size: 400% 400%;
-    animation: bg 15s ease infinite;
+    background-size: 700% 700%;
+    animation: bg 20s ease infinite;
     font-family: 'Oxygen', sans-serif;
 }
 
-#topDiv {
+h1 {
+    font-size: 3em;
+    color: #2b78f5;
+}
+
+h2 {
+    font-size: 1.65em;
+    color: rgb(32, 32, 38);
+}
+
+#mainDiv {
     border-radius: 20px;
     display: inline-block;
     padding: 2%;
@@ -14,18 +24,19 @@ body {
     background-color: rgb(215, 217, 250);
 }
 
-#topDiv h1 {
-    font-size: 3em;
-    color: #2b78f5;
-}
-
-#topDiv h2 {
-    font-size: 1.65em;
-    color: rgb(32, 32, 38);
+#links {
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
 }
 
 .mainLink {
     font-size: 2.75em;
+    color: #2b78f5;
+}
+
+a:visited {
     color: #2b78f5;
 }
 
@@ -34,17 +45,9 @@ body {
         background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+        background-position: 80% 50%;
     }
     100% {
         background-position: 0% 50%;
     }
-}
-
-#links {
-    overflow: hidden;
-    padding: 20px 10px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-column-gap: 10px;
 }
