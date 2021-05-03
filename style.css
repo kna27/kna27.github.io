@@ -68,6 +68,20 @@ body {
     background-color: azure;
 }
 
+@media only screen and (max-width: 801px) {
+    .project {
+        border-radius: 20px;
+        display: inline-block;
+        padding: 2%;
+        margin-bottom: 3%;
+        margin-right: 10px;
+        background-color: rgb(215, 217, 250);
+        width: 90%;
+        height: auto;
+        background-color: azure;
+    }
+}
+
 @keyframes bg {
     0% {
         background-position: 0% 50%;
