@@ -11,7 +11,22 @@ body {
     display: inline-block;
     padding: 2%;
     margin-bottom: 5%;
+    width: 90%;
     background-color: rgb(215, 217, 250);
+}
+
+#projectPageDiv {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 5%;
+    width: 90%;
+    background-color: rgb(215, 217, 250);
+}
+
+#projectContent {
+    text-align: left;
+    line-height: 2.5em;
 }
 
 #footer {
@@ -39,6 +54,14 @@ body {
     color: rgb(32, 32, 38);
 }
 
+#mainDiv a {
+    color: #2b78f5;
+}
+
+#mainDiv a:visited {
+    color: #2b78f5;
+}
+
 #projectsContainer a {
     text-decoration: none;
     color: rgb(32, 32, 38);
@@ -49,12 +72,9 @@ body {
     color: rgb(32, 32, 38);
 }
 
-#mainDiv a {
-    color: #2b78f5;
-}
-
-#mainDiv a:visited {
-    color: #2b78f5;
+#projectContent ul,
+ol {
+    font-size: 1.5em;
 }
 
 .mainLink {
