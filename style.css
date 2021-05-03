@@ -6,6 +6,11 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 iframe[src*=youtube] {
     display: block;
     margin: 0 auto;
@@ -79,7 +84,7 @@ iframe[src*=youtube] {
     color: rgb(32, 32, 38);
 }
 
-#projectContent h3{
+#projectContent h3 {
     font-size: 1.35em;
 }
 
@@ -117,6 +122,13 @@ p {
         width: 90%;
         height: auto;
         background-color: azure;
+    }
+    #links a {
+        font-size: 6vw;
+    }
+    #mainDiv h2 {
+        font-size: 1.3em;
+        color: rgb(32, 32, 38);
     }
 }
 
