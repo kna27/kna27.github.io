@@ -6,16 +6,6 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-h1 {
-    font-size: 3em;
-    color: #2b78f5;
-}
-
-h2 {
-    font-size: 1.65em;
-    color: rgb(32, 32, 38);
-}
-
 #mainDiv {
     border-radius: 20px;
     display: inline-block;
@@ -31,13 +21,51 @@ h2 {
     grid-column-gap: 10px;
 }
 
+#projectsContainer {}
+
+#mainDiv h1 {
+    font-size: 3em;
+    color: #2b78f5;
+}
+
+#mainDiv h2 {
+    font-size: 1.65em;
+    color: rgb(32, 32, 38);
+}
+
+#projectsContainer a {
+    text-decoration: none;
+    color: rgb(32, 32, 38);
+}
+
+#projectsContainer a:visited {
+    text-decoration: none;
+    color: rgb(32, 32, 38);
+}
+
+#mainDiv a {
+    color: #2b78f5;
+}
+
+#mainDiv a:visited {
+    color: #2b78f5;
+}
+
 .mainLink {
     font-size: 2.75em;
     color: #2b78f5;
 }
 
-a:visited {
-    color: #2b78f5;
+.project {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 3%;
+    margin-right: 10px;
+    background-color: rgb(215, 217, 250);
+    width: 40%;
+    height: 12.5em;
+    background-color: azure;
 }
 
 @keyframes bg {
