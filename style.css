@@ -14,14 +14,20 @@ body {
     background-color: rgb(215, 217, 250);
 }
 
+#footer {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: rgb(215, 217, 250);
+}
+
 #links {
     overflow: hidden;
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 10px;
 }
-
-#projectsContainer {}
 
 #mainDiv h1 {
     font-size: 3em;
