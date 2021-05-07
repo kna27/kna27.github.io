@@ -94,6 +94,10 @@ p {
     font-size: 1.25em;
 }
 
+.project h1 {
+    color: blue;
+    text-decoration: underline;
+}
 .mainLink {
     font-size: 2.75em;
     color: #2b78f5;
