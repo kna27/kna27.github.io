@@ -1,0 +1,11 @@
+{
+    "BCACTF 4.0": {
+        "description": "Global cybersecurity competition run by the BCA CTF club",
+        "year": "2021",
+        "tags": [
+            "Cybersecurity"
+        ],
+        "bgImage": "bcactf4.png",
+        "link": "https://play.bcactf.com"
+    }
+}
